@@ -138,6 +138,8 @@ img {
 	position: relative;
 
 	color: #f5112c;
+
+	transition: 0.3s ease-in-out;
 }
 
 .red-link::after {
@@ -151,6 +153,17 @@ img {
 	height: 2px;
 
 	background-color: #f5112c;
+	transition: 0.3s ease-in-out;
+}
+
+.red-link:hover {
+	color: #2429ff;
+	transition: 0.3s ease-in-out;
+}
+
+.red-link:hover::after {
+	background-color: #2429ff;
+	transition: 0.3s ease-in-out;
 }
 /* ========================================= */
 
@@ -685,6 +698,11 @@ img {
 
 	width: 360px;
 	margin-bottom: 10px;
+}
+
+.teachers-items li:hover {
+	box-shadow: 0 0 10px 5px rgba(150,150,150,0.2);
+	cursor: default;
 }
 
 .teachers-items .blue-circle {
