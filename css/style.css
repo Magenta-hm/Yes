@@ -1413,6 +1413,8 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	padding-bottom: 90px;
 }
 
 .social {
@@ -1472,6 +1474,21 @@ img {
 	background-position: 23px 12px;
 }
 
+.contacts-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	width: 625px;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.footer-bottom p {
+	margin: 0;
+}
 
 
 
