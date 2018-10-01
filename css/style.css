@@ -128,10 +128,22 @@ img {
 
 	color: #e4002b;
 	text-transform: uppercase;
+	transition: 0.3s ease-in-out;
 }
 
 .red-logo span {
 	color: #000000;
+	transition: 0.3s ease-in-out;
+}
+
+.red-logo:hover {
+	color: #2429ff;
+	transition: 0.3s ease-in-out;
+}
+
+.red-logo:hover span {
+	color: #f5112c;
+	transition: 0.3s ease-in-out;
 }
 
 .red-link {
@@ -1322,6 +1334,15 @@ img {
 	background-color: #f5112c;
 	box-shadow: 0px 5px 10px 0px rgba(245, 17, 44, 0.2);
 	border-radius: 30px;
+}
+
+.red-toggle:hover,
+.red-toggle:focus {
+	background-color: #f63f54;
+}
+
+.red-toggle:active {
+	background-color: #d50d25;
 }
 
 .promo-lesson {
