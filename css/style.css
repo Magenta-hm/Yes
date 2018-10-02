@@ -1680,8 +1680,9 @@ img {
 .user-form-close {
 	position: absolute;
 
-	top: 78px;
-	right: 90px;
+	top: 27px;
+	right: 25px;
+
 	width: 22px;
 	height: 22px;
 
@@ -1698,13 +1699,16 @@ img {
 	position: absolute;
 
 	content: "";
-	top: -42px;
-	left: 64px;
+
+	top: 10px;
+	left: 0px;
+
 	width: 23px;
 	height: 2px;
 
 	background-color: #000000;
 	border-radius: 0;
+	transition: 0.3s ease-in-out;
 }
 
 .user-form-close::before {
@@ -1713,4 +1717,16 @@ img {
 
 .user-form-close::after {
 	transform: rotate(-50deg);
+}
+
+.user-form-close:hover::before {
+	background-color: red;
+	transform: rotate(-50deg);
+	transition: 0.3s ease-in-out;
+}
+
+.user-form-close:hover::after {
+	background-color: red;
+	transform: rotate(50deg);
+	transition: 0.3s ease-in-out;
 }
